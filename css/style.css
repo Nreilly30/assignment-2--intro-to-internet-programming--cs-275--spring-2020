@@ -1,0 +1,20 @@
+body {
+  background-color: black;
+  color: red;
+}
+
+h1 {
+  text-align: center;
+  font-size: xx-large;
+  color: orange;
+  background-color: black;
+  padding-top: 30px;
+  font-family: 'Segoe Script', times, serif;
+}
+
+div {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: large;
+}

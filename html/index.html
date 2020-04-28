@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Public Enemy</title>
+    <link href="css/style.css" rel="stylesheet"><!-- DO NOT EDIT THIS LINE. -->
+    <script src="js/app.js"></script>
+  </head>
+  <body>
+    <h1>Rice Recipes</h1>
+    <p>Rice Types:</p>
+    <input type="radio" id="white-rice" name="rice" value="white" onclick="changeRice()" checked="checked">
+    <label for="white-rice">White Rice</label><br>
+    <input type="radio" id="sprouted-california-rice" name="rice" value="sprouted" onclick="changeRice()">
+    <label for="sprouted-california-rice">Sprouted California Rice</label><br>
+
+    <h2 id="heading"></h2>
+    <div id="instructions"></div>
+
+    <input type="number" id="amount-rice" oninput="riceToWater()" value="0">
+    <div id="water-ratio"></div>
+  </body>
+</html>
